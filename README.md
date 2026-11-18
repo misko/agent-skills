@@ -4,6 +4,10 @@ Prompt-based skills for Claude Code. Each skill is a self-contained `.md` file â
 
 ## Skills
 
+### [Read-only code review](cr/SKILL.md)
+
+Use `/cr <files, functions, or behavior>` to inspect correctness and efficiency, run isolated test cases, and receive a plain-language report with recommended tests.
+
 ### [Adversarial Review](adversarial-review/)
 Multi-agent adversarial review for any artifact (code, plans, specs, designs). Spawns N AI reviewers with distinct personalities who independently review, then debate issues round-robin until consensus or agree-to-disagree. Every panel includes a mandatory Devil's Advocate and Minimalist.
 
