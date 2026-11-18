@@ -1,4 +1,4 @@
-# claude-skills
+# agent-skills
 
 Prompt-based skills for Claude Code. Each skill is a self-contained `.md` file — give it to Claude and go.
 
